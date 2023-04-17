@@ -2,7 +2,7 @@ import kelasku.Budi;
 import kelasku.Joko;
 
 public class TesPaket {
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
         Budi objectBudi = new Budi();
         objectBudi.info();
@@ -11,4 +11,5 @@ public class TesPaket {
         objectJoko.info();
 
     }
+
 }
