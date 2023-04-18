@@ -8,13 +8,11 @@ public class TransportasiDemo {
 
         Mobil mobil = new Mobil("Honda", 2013, "GT-86", "Bensin", "Hitam");
         System.out.println("Informasi Mobil:");
-        System.out.println("----------------");
         mobil.getInfo();
         System.out.println();
 
         Bicycle bicycle = new Bicycle("Brompton", 2020, "C Line Urban", "Foldable", "Titanium Green");
-        System.out.println("Informasi Sepeda:");
-        System.out.println("-----------------");
+        System.out.println("Informasi Bicycle:");
         bicycle.getInfo();
         System.out.println();
     }
